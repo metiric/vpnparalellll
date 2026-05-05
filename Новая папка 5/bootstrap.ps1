@@ -1,11 +1,11 @@
 # NetGuard remote installer
 # Usage from cmd:
-#   powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/metiric/netguard/main/bootstrap.ps1 | iex"
+#   powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/metiric/vpnparalellll/main/bootstrap.ps1 | iex"
 
 $ErrorActionPreference = "Stop"
 
 # !!! Замени на свой GitHub username/repo перед пушем !!!
-$RepoBase    = "https://raw.githubusercontent.com/metiric/netguard/main"
+$RepoBase    = "https://raw.githubusercontent.com/metiric/vpnparalellll/main"
 $InstallDir  = Join-Path $env:APPDATA "NetGuard"
 $StartupDir  = Join-Path $env:APPDATA "Microsoft\Windows\Start Menu\Programs\Startup"
 $ShortcutLnk = Join-Path $StartupDir "NetGuard.lnk"

